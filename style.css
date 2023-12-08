@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image{
+    height: 100%;
+    width: 84.5%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.details{
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-details{
+    display: flex;
+}
+
+.music-img{
+    padding-top: 6px;
+}
+.rates{
+   line-height: 0.4rem;
+   padding-left: 10px;
+}
+
+.rates p:nth-of-type(2){
+    color: hsl(224, 23%, 55%);
+}
+.rates p:nth-of-type(1){
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.rate-option{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+a:hover{
+    color: hsl(245, 70%, 61%);
+}
+button {
+   width: 100%;
+   background-color: hsl(245, 75%, 52%); 
+   border: none;
+   padding: 15px;
+   border-radius: 10px;
+   color: hsl(225, 100%, 98%);
+   font-weight: 700;
+   margin-top: 20px;
+   box-shadow: 0 1rem 2rem 0.5rem hsl(225, 100%, 94%) ;
+}
+button:hover{
+    background-color: hsl(224, 58%, 66%);
+    cursor: pointer;
+    color: hsl(0, 0%, 98%);
+}
+
+h4{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+h4:hover{
+    color:  hsl(223, 47%, 23%);
+    cursor: pointer;
+}
